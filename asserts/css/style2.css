@@ -1,13 +1,6 @@
-.container-imagem{
-    margin: 0px;
-    display: flexbox;
-    width: 100vw;
-    height: 100vh;
+.p-30 {
+    font-size: 21px;
 }
-
-.borda {
-    margin: auto;
-    width: 400px;
-    padding: 10px;
-    background-color: #636e72;
+.justify {
+    text-align: justify;
 }
