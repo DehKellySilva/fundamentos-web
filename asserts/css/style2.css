@@ -1,6 +1,146 @@
+.Wallpaper {
+    background-color: rgb(107, 187, 196);
+    display: flex;
+}
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3%;
+    
+}
+
 .p-30 {
-    font-size: 21px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.wh {
+    height: 207px;
+    position: fixed;
+    bottom: 34px;
+    right: 80px;
+}
+
+.center {
+    margin-top: 2%;
+    text-align: center;
+    padding: 20px;
 }
 .justify {
     text-align: justify;
 }
+
+.tl {
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.tm-social {
+    position: fixed;
+    bottom: 100px;
+    right: 1050px;
+    width: 46px;
+}
+
+.tm-social2 {
+    position: fixed;
+    bottom: 100px;
+    right: 1150px;
+    width: 46px;
+}
+
+.tdr {
+    position: fixed;
+    bottom: 20px;
+    right: 975px;
+}
+
+.vaga {
+    font-size: 35px;
+    position: fixed;
+    bottom: 100px;
+    right: 475px;
+}
+
+#menu li {
+    position: fixed;
+    display: inline;
+    bottom: 50px;
+    right: 550px;
+    padding: 15px;
+    
+}
+
+#menu li a {
+    text-decoration: underline;
+    color: black;
+    font-size: 25px;
+}
+
+#menu li a:hover {
+    color: grey;
+}
+
+.ml-50 {
+    margin-left: 50px;
+}
+.container2 {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+.center2 {
+    text-align: center;
+}
+
+.p2-30 {
+    padding: 30px;
+}
+
+.tm-social-1 {
+    width: 50px;
+    height: 50px;
+}
+
+.Wallpaper2 {
+    background-color: rgb(107, 187, 196);
+}
+#menu2 li {
+    position: fixed;
+    display: inline;
+    bottom: 15px;
+    right: 625px;
+    padding: px;
+    
+}
+
+#menu2 li a {
+    text-decoration: underline;
+    color: black;
+    font-size: 25px;
+}
+
+#menu2 li a:hover {
+    color: grey;
+}
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  
